@@ -1,0 +1,21 @@
+
+
+
+{
+  "name": "youtube_video_downloader",
+  "description": "Send it to your youtube download page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons.jpg",
+    "32": "icons.jpg",
+    "48": "icons.jpg"
+  }
+}
